@@ -1,7 +1,7 @@
 MACHINE LEARNING MODELS EXPLAINED
 
 Model 1: Cardiovascular Risk Predictor
-───────────────────────────────────────
+
 Type: Logistic Regression
 Formula: P(disease) = 1 / (1 + e^(-z))
 Where: z = w₁×age + w₂×BMI + w₃×smoking + ... + bias
@@ -16,7 +16,7 @@ Weights: Learned from medical research data
 Output: 0-100% risk score
 
 Model 2: Diabetes Risk Predictor
-──────────────────────────────────
+
 Type: Weighted Multi-Factor Model
 Key Factors:
 • BMI (30% weight) - Primary indicator
@@ -28,7 +28,7 @@ Key Factors:
 Algorithm: Combines factors with learned weights → sigmoid → scale to 0-100%
 
 Model 3: Overall Health Score
-─────────────────────────────────
+
 Type: Ensemble (Weighted Average of Sub-Models)
 Components:
 • Metabolic Health (35%)
@@ -39,7 +39,7 @@ Components:
 Formula: Score = Σ(component_i × weight_i)
 
 Model 4: Biological Age Predictor
-──────────────────────────────────
+
 Type: Rule-Based with Learned Adjustments
 Base: Chronological age
 Modifiers:
